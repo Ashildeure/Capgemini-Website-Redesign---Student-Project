@@ -24,4 +24,7 @@ If I revisit this project, I’d like to:
 - Optimize for more responsiveness  
 - Explore backend integration for dynamic content
 
-## ⚠️ Disclaimer: This project is purely educational and not affiliated with Capgemini. All rights to the original Capgemini branding and content belong to them.
+## 🎉 How to View the Project  
+CapGemini_website_redesign/main.html
+
+⚠️ Disclaimer: This project is purely educational and not affiliated with Capgemini. All rights to the original Capgemini branding and content belong to them.
