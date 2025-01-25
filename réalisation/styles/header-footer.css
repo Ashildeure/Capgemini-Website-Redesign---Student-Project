@@ -1,0 +1,132 @@
+/* HEADER */
+
+header {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  box-shadow: 0px 2px 5px grey;
+  border-radius: 5px;
+  font-size: 17.5px;
+  margin-bottom: 30px;
+}
+
+header img {
+  margin-top: 10px;
+  max-width: 300px;
+  height: auto;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav ul li {
+  position: relative;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #555;
+  padding: 15px;
+  display: block;
+  position: relative;
+}
+
+header nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #f5f5f5;
+  border-radius: 0px 0px 10px 10px;
+  padding: 20px;
+}
+
+header nav ul li:hover ul {
+  display: flex;
+}
+
+header nav ul ul li {
+  display: block;
+  margin-right: 10px;
+}
+
+header nav ul ul li:last-child {
+  margin-right: 0;
+}
+
+header nav ul ul li a {
+  padding: 5px;
+  color: #555;
+}
+
+
+/* FOOTER */
+
+footer {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #f5f5f5;
+  padding: 0px 20px;
+  box-shadow: 0px 2px 5px grey;
+  border-radius: 5px;
+}
+
+footer aside:first-of-type {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+footer aside:last-of-type {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+footer h1 {
+  width: 140px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+footer aside:last-of-type button {
+  box-shadow: 2px 2px grey;
+  background-color: #fff;
+  border: 1px solid #555;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px 12px;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+footer aside:last-of-type button:hover {
+  background-color: #b0c7cc;
+  box-shadow: 2px 2px #818f92;
+}
+
+footer aside:last-of-type button a {
+  text-decoration: none;
+  color: #555;
+}
+
+footer aside a img {
+  width: auto;
+  height: 40px;
+}
+
+
+footer aside img {
+  max-width: 60px;
+  height: auto;
+  border-radius: 5px;
+}
